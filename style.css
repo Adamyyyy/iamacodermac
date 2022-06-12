@@ -1,3 +1,44 @@
-table {
-    border: 3px dashed grey;
-  }
+table,
+td,
+th {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: bold;
+}
+
+#mytable {
+  color: orange;
+}
+
+.mytable_class {
+  background: rgb(195, 205, 131);
+}
+
+/* ul.info li {
+  list-style: none;
+} */
+
+ul.info > li {
+  list-style: none;
+}
+
+ul.info > li li:nth-child(2) {
+  list-style: none;
+}
+
+ol li a {
+  text-decoration: none;
+}
+
+ol li a[target="_blank"] {
+  color: orange;
+}
+
+ol li a[href="https://google.com"] {
+  color:red;
+}
+
+ol li a[href*="google"] {
+  color:rgb(22, 199, 98);
+}
