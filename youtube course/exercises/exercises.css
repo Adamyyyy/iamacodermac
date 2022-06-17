@@ -1,0 +1,130 @@
+/* 
+.tweet-box {
+  display: inline-block;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 6px;
+  width: 460px;
+}
+
+
+.thumbnail {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.text-box {
+  border: none;
+  font-size: 16px;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.tweet-button {
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: rgb(0, 128, 255);
+  width: 80px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  vertical-align: middle;
+  font-weight: bold;
+  cursor: pointer;
+} */
+
+p {
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.profile {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: right;
+  margin-bottom: 9px;
+}
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-bottom: 4px;
+  
+}
+
+.mutual-friend {
+  font-size: 12px;
+  margin-left: 6px;
+  margin-bottom: 9px;
+  color: rgb(75, 75, 75);
+}
+
+.add-friend-button {
+  margin-left: 6px;
+  margin-bottom: 10px;
+  background-color: rgb(53, 53, 255);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* div {
+  text-align: center;
+  font-family: arial;
+}
+
+.google-loge {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+input {
+  font-size: 16px;
+  width: 500px;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+.google-button {
+  background-color: rgb(248, 249, 250);
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.search-button {
+  margin-right: 10px;
+} */
