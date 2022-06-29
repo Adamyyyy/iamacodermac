@@ -4,6 +4,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(211, 211, 211);
 }
 
 .left-section {
@@ -75,7 +84,6 @@
 .voice-search-icon {
   height: 24px;
   margin-top: 4px;
-
 }
 
 .right-section {
@@ -95,9 +103,30 @@
   height: 24px;
 }
 
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(196, 0, 0);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+
 .notifications-icon {
   height: 24px;
 }
+
+
 
 .current-user-picture {
   height: 32px;
