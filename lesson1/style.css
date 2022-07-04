@@ -23,6 +23,7 @@ ul.info > li {
   list-style: none;
 }
 
+/*拓展*/
 ul.info > li li:nth-child(2) {
   list-style: none;
 }
@@ -31,6 +32,7 @@ ol li a {
   text-decoration: none;
 }
 
+/*选择器*/
 ol li a[target="_blank"] {
   color: orange;
 }
@@ -40,18 +42,22 @@ ol li a[href="https://google.com"]
   color: red;
 }
 
+/*相关*/
 ol li a[href*="google"] {
   color: rgb(22, 199, 98);
 }
 
+/*头*/
 ol li a[href^="httpss"] {
   color: rgb(22, 199, 98);
 }
 
+/*尾部*/
 ol li a[href$=".com.au"] {
   background-color: rgb(135, 4, 4);
 }
 
+/*合并写法*/
 ol li a[href*="google"][href$=".com.au"] {
   background: #666;
 }
